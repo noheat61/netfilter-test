@@ -8,7 +8,7 @@ sample : netfilter-test test.gilgil.net
 ```
 
 ### 상세
-* iptables 명령어를 이용하셔 송수신되는 모든 패킷을 netfilter queue로 jump시킨다.
+* iptables 명령어를 이용하여 송수신되는 모든 패킷을 netfilter queue로 jump시킨다.
 
 * netfilter 예제에서 nfq_get_payload 이후 패킷의 시작 위치와 패킷의 길이를 알아내고 나서 IP, TCP, HTTP 형식으로 parsing을 한다.
 
